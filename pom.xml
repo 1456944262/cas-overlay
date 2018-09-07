@@ -76,6 +76,22 @@
             <type>war</type>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.0.29</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.6</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+           <groupId>org.jasig.cas</groupId>
+           <artifactId>cas-server-support-jdbc</artifactId>
+           <version>${cas.version}</version>
+        </dependency>        
     </dependencies>
 
     <properties>
